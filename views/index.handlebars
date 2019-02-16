@@ -1,0 +1,27 @@
+<div class="row">
+    <div id="burgerLogo" class="col s12 center-align">
+        <img style="max-width: 300px;" src="http://localhost:3000/assets/img/logo.png" alt="">
+    </div>
+</div>
+<dvi class="row">
+    <div id="burgerTitle" class="col s12 center-align">Eat-Da-Burger</div>
+</dvi>
+<div class="row">
+    <div class="col s6 offset-s3">
+        <input id="newBurger" type="text" class="materialize-textarea"></input>
+        <span class="helper-text" data-error="wrong" data-success="right">Enter a Burger you would like to eat!</span>
+    </div>
+    <div class="col s12 center-align">
+        {{!-- <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a> --}}
+        <a id="addNewBurger" class="btn-floating btn-large waves-effect waves-light red"><i
+                class="fas fa-hamburger"></i></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col s6">
+        <div id="fresh" class="card-panel"></div>
+    </div>
+    <div class="col s6">
+        <div id="devoured" class="card-panel"></div>
+    </div>
+</div>
