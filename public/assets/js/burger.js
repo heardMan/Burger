@@ -7,7 +7,7 @@ $(document).ready(function () {
                         <div class="col s12">
                             <div class="card">
                                 <div class="card-image">
-                                    <img style="max-width: 300px; margin: auto;" src="http://localhost:3000/assets/img/${element.img}.png">
+                                    <img style="max-width: 300px; margin: auto;" src="https://pacific-wave-57601.herokuapp.com/assets/img/${element.img}.png">
                                 </div>
                                 <div class="card-content">
                                     <div class="row">
