@@ -53,7 +53,9 @@ $(document).ready(function () {
         var newBurger = {burger: $("#newBurger").val()};
         console.log(newBurger);
         $.post("api/burgers", newBurger);
+        $("#newBurger").val("");
         renderBurgers();
+
     })
 
 });
